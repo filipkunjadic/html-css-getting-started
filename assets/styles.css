@@ -1,0 +1,32 @@
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.row{
+  width:100%;
+}
+.row > div.col-30,
+.row > div.col-33,
+.row > div.col-50,
+.row > div.col-70,
+.row > div.col-100{
+  float: left;
+}
+.col-30{
+  width: 30%;
+}
+.col-33{
+  width: 33.3333%;
+}
+.col-50{
+  width: 50%;
+}
+.col-70{
+  width: 70%;
+}
+.col-100{
+  width: 100%;
+}
+.clear{
+  clear: both;
+}
