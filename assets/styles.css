@@ -7,7 +7,9 @@
 }
 .row > div.col-30,
 .row > div.col-33,
+.row > div.col-40,
 .row > div.col-50,
+.row > div.col-60,
 .row > div.col-70,
 .row > div.col-100{
   float: left;
@@ -18,8 +20,14 @@
 .col-33{
   width: 33.3333%;
 }
+.col-40{
+  width: 40%;
+}
 .col-50{
   width: 50%;
+}
+.col-60{
+  width: 60%;
 }
 .col-70{
   width: 70%;
@@ -29,4 +37,51 @@
 }
 .clear{
   clear: both;
+}
+.text-center{
+  text-align: center;
+}
+.p-20-0{
+  padding: 20px 0;
+}
+.w-100{
+  width: 100%;
+  height: auto;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+h1.branding span{
+  color:#ea1e63;
+}
+nav{
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+}
+nav ul li{
+  float: left;
+}
+.d-inline-block{
+  display: inline-block;
+}
+.subscribe-box{
+  background-color: #f7f7f7;
+}
+.p-20-0-0-0{
+  padding: 20px 0 0 0;
+}
+.border{
+  border-top:1px solid #d0d0d0;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.p-20{
+  padding: 20px;
+}
+.border-bottom{
+  border-bottom: 1px solid #d0d0d0;
 }
